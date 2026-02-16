@@ -28,6 +28,6 @@ cd "vendor/gta-toolkit"
 	mkdir "bin"
 
 	dotnet publish "RageLib.GTA5/RageLib.GTA5.csproj" -c Release -r linux-x64 --self-contained true --nologo
-	cp "RageLib.GTA5/bin/Release/net5.0/linux-x64/RageLib.dll" "bin/"
-	cp "RageLib.GTA5/bin/Release/net5.0/linux-x64/RageLib.GTA5.dll" "bin/"
+	cp "RageLib.GTA5/bin/Release/net6.0/linux-x64/RageLib.dll" "bin/"
+	cp "RageLib.GTA5/bin/Release/net6.0/linux-x64/RageLib.GTA5.dll" "bin/"
 cd ../..

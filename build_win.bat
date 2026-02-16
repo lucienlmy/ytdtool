@@ -28,4 +28,4 @@ cd ..
 
 :: Build YTDToolio
 dotnet publish -c Release -r win-x64 --self-contained true --nologo
-copy /y "ytdtoolio\bin\Release\net5.0\win-x64\publish\YTDToolio.exe" "bin\"
+copy /y "ytdtoolio\bin\Release\net6.0\win-x64\publish\YTDToolio.exe" "bin\"

@@ -18,4 +18,4 @@ cd ..
 
 # Build YTDToolio
 dotnet publish -c Release -r osx-x64 --self-contained true --nologo
-cp "ytdtoolio/bin/Release/net5.0/osx-x64/publish/YTDToolio" "bin/"
+cp "ytdtoolio/bin/Release/net6.0/osx-x64/publish/YTDToolio" "bin/"
